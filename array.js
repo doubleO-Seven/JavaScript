@@ -31,3 +31,9 @@ for(var i=0; i<arr.length; i++){
         break;
     }
 }
+
+//multi dimensional array
+var arr = [[1,2,3], [4,6,8]]
+console.log(arr)
+
+console.log(arr[1][2])
