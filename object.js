@@ -22,6 +22,8 @@ var obj2 = new Object()
 obj2.b = 78
 console.log(obj2)
 
+
+//accessing obj
 var a = {
     x: 10,
     y: 20,
@@ -33,4 +35,17 @@ console.log(a.z)
 //sum
 console.log(a.x + a.y)
 
+//update any value
+var a = {
+    x: 10,
+    y: 20,
+    z: 45
+}
 
+a.x = 66
+console.log(a)
+
+// detele
+
+delete a.x
+console.log(a)
