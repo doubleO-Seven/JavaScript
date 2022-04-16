@@ -1,4 +1,4 @@
-function name(){
+function myName(){
     console.log(`S M Shakib`)
 }
 
@@ -8,5 +8,13 @@ function sum(){
     console.log(a+b)
 }
 
-name()
+myName()
 sum()
+
+function add(a, b){
+    var result = a +b
+    console.log(result)
+}
+
+add(9, 10)
+add(100, 656)
