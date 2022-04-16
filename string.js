@@ -1,3 +1,4 @@
+//string literal
 var str = `Ant`
 console.log(str)
 
