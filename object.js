@@ -21,3 +21,16 @@ console.log(obj)
 var obj2 = new Object()
 obj2.b = 78
 console.log(obj2)
+
+var a = {
+    x: 10,
+    y: 20,
+    z: 45
+}
+console.log(a.x)
+console.log(a.z)
+
+//sum
+console.log(a.x + a.y)
+
+
