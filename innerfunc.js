@@ -3,7 +3,7 @@ function greetings(greet, name){
         console.log(greet, name)
     }
 
-    //sayHi()
+    sayHi()
 }
-sayHi()
+
 greetings(`Hello`, `S M`)
